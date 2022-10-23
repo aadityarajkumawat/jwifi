@@ -76,7 +76,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 Text(
-                                  'Status:',
+                                  'Statuss:',
                                   style: TextStyle(fontSize: 22),
                                 ),
                                 Padding(
