@@ -66,7 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         width: 300,
                         height: 80,
                         decoration: BoxDecoration(
-                          color: Colors.white,
+                          color: Colors.black54,
                           shape: BoxShape.rectangle,
                         ),
                         child: Column(
