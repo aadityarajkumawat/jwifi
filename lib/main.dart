@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:desktop_window/desktop_window.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_advanced_switch/flutter_advanced_switch.dart';
+import 'package:jwifi/update_credentials.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -66,7 +67,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         width: 300,
                         height: 80,
                         decoration: BoxDecoration(
-                          color: Colors.black54,
+                          color: Colors.white,
                           shape: BoxShape.rectangle,
                         ),
                         child: Column(
@@ -76,7 +77,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               mainAxisSize: MainAxisSize.max,
                               children: [
                                 Text(
-                                  'Statuss:',
+                                  'Status:',
                                   style: TextStyle(fontSize: 22),
                                 ),
                                 Padding(
